@@ -18,7 +18,7 @@ getfile("resources/data.json", function(text){
 function carrier(info){
   var right_child=document.querySelector(".content_child");
   var h2=document.createElement("h2");
-  h2.textContent="CARRIER OBJECTIVE";
+  h2.textContent="CAREER OBJECTIVE";
   right_child.appendChild(h2);
   var hr=document.createElement("hr");
   right_child.appendChild(hr);
